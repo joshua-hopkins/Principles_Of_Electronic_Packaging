@@ -1,0 +1,43 @@
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Given parameters
+diameter_mil = 5  # mil
+diameter_m = diameter_mil * 0.0254 * 1e-3  # Convert mil to meters
+radius_m = diameter_m / 2
+
+# Length range in mm (converted to meters)
+length_mm = np.arange(2, 21, 1)  # From 2 mm to 20 mm
+length_m = length_mm * 1e-3
+
+# Permeability of free space (H/m)
+mu_0 = 4 * np.pi * 1e-7  
+
+# Self-inductance formula (from provided lecture equation)
+L_self = (mu_0 / (2 * np.pi)) * length_m * (
+    np.log((length_m / radius_m) + np.sqrt(1 + (length_m / radius_m) ** 2)) -
+    np.sqrt(1 + (radius_m / length_m) ** 2 + (radius_m / length_m) + 1/4)
+)
+
+# Convert to nH
+L_self_nH = L_self * 1e9
+print(L_self_nH)
+
+# Rule of thumb inductance (1 nH/mm)
+L_rule_nH = length_mm * 1  # 1 nH per mm
+print(L_self_nH)
+
+# Plot results
+plt.figure(figsize=(8, 5))
+plt.plot(length_mm, L_self_nH, label="Calculated Self-Inductance", marker='o')
+plt.plot(length_mm, L_rule_nH, label="Rule of Thumb (1 nH/mm)", linestyle='dashed')
+
+# Labels and legend
+plt.xlabel("Length (mm)", fontsize=12)
+plt.ylabel("Inductance (nH)", fontsize=12)
+plt.title("Self-Inductance of 5-mil Aluminum Wire vs Length", fontsize=14)
+plt.legend(fontsize=12)
+plt.grid(True)
+
+# Show plot
+plt.show()
