@@ -1,0 +1,241 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002025, month=000000000002, day=000000000026, hour=000000000023, min=000000000047, sec=000000000051)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000005837, lin=000000000220, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'SolutionBlock2'
+	SolutionName='LastAdaptive'
+	SolutionID=16
+	V=0
+	$begin 'States'
+		F(VID=57, Ver=0)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(500000000)
+		SolutionType=6
+		CenterFreq=0
+	$end 'Definition'
+	SweepID=-1
+	$begin 'MDCR'
+		$begin 'SubData'
+			ID=0
+			MDCR(VID=57, Ver=0, File='DV57_SOL16_MDCR0_V0.sd')
+		$end 'SubData'
+	$end 'MDCR'
+	$begin 'MADCR'
+		$begin 'SubData'
+			ID=0
+			MADCR(VID=57, Ver=0, File='DV57_SOL16_MADCR0_V0.sd')
+		$end 'SubData'
+	$end 'MADCR'
+	$begin 'MACL'
+		$begin 'SubData'
+			ID=0
+			MACL(VID=57, Ver=0, File='DV57_SOL16_MACL0_V0.sd')
+		$end 'SubData'
+	$end 'MACL'
+	$begin 'MDCP'
+		$begin 'SubData'
+			ID=0
+			MDCP(VID=57, Ver=0, File='DV57_SOL16_MDCP0_V0.sd')
+		$end 'SubData'
+	$end 'MDCP'
+$end 'SolutionBlock2'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=15, Instance=\'\', Solution=-3, VersionID=0)'='SolutionBlock5'
+	'SolutionKey(SimSetup=15, Instance=\'SetupDefinition\', Solution=-1, VersionID=0)'='SolutionBlock4'
+	'SolutionKey(SimSetup=15, Instance=\'SolutionDefinition\', Solution=16, VersionID=0)'='SolutionBlock2'
+	'SolutionKey(SimSetup=15, Instance=\'SolutionDefinition\', Solution=17, VersionID=0)'='SolutionBlock3'
+$end 'BlockMapName'
+$begin 'SolutionBlock3'
+	SolutionName='AdaptivePass'
+	SolutionID=17
+	V=0
+	$begin 'States'
+		F(VID=57, Ver=0)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(500000000)
+		SolutionType=6
+		CenterFreq=0
+	$end 'Definition'
+	SweepID=-1
+	$begin 'MDCR'
+		$begin 'SubData'
+			ID=1
+			MDCR(VID=57, Ver=0, File='DV57_SOL17_MDCR1_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			MDCR(VID=57, Ver=0, File='DV57_SOL17_MDCR2_V0.sd')
+		$end 'SubData'
+	$end 'MDCR'
+	$begin 'MADCR'
+		$begin 'SubData'
+			ID=1
+			MADCR(VID=57, Ver=0, File='DV57_SOL17_MADCR1_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			MADCR(VID=57, Ver=0, File='DV57_SOL17_MADCR2_V0.sd')
+		$end 'SubData'
+	$end 'MADCR'
+	$begin 'MACL'
+		$begin 'SubData'
+			ID=1
+			MACL(VID=57, Ver=0, File='DV57_SOL17_MACL1_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			MACL(VID=57, Ver=0, File='DV57_SOL17_MACL2_V0.sd')
+		$end 'SubData'
+	$end 'MACL'
+	$begin 'MDCP'
+		$begin 'SubData'
+			ID=1
+			MDCP(VID=57, Ver=0, File='DV57_SOL17_MDCP1_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			MDCP(VID=57, Ver=0, File='DV57_SOL17_MDCP2_V0.sd')
+		$end 'SubData'
+	$end 'MDCP'
+$end 'SolutionBlock3'
+$begin 'SolutionBlock4'
+	SimSetupID=15
+	SimSetupName='Setup1'
+	VersionID=0
+	SolveSetupID=0
+	$begin 'SU'
+	$end 'SU'
+	$begin 'DCVolCurrentPassNum'
+		'DCVol.CP'(VID=57, Ver=0, P=2)
+	$end 'DCVolCurrentPassNum'
+	$begin 'DCVolCurrentMeshes'
+		'DVM.cmesh'(VID=57, Ver=0, Dir='DV57_S15_V0_DVM.cmesh/')
+	$end 'DCVolCurrentMeshes'
+	$begin 'DCVolAdpFiles'
+		IDDblMap(67, 1, 70, 2)
+		$begin 'DataMap'
+			VID=57
+			Ver=0
+			'DVM.ADP'(DblID=67, Dir='DV57_S15_V0_P67_DVM.ADP/')
+			'DVM.ADP'(DblID=70, Dir='DV57_S15_V0_P70_DVM.ADP/')
+		$end 'DataMap'
+	$end 'DCVolAdpFiles'
+	$begin 'SU'
+	$end 'SU'
+	$begin 'ACSurfCurrentPassNum'
+		'ACSurf.CP'(VID=57, Ver=0, P=2)
+	$end 'ACSurfCurrentPassNum'
+	$begin 'ACSurfCurrentMeshes'
+		'ASM.cmesh'(VID=57, Ver=0, Dir='DV57_S15_V0_ASM.cmesh/')
+	$end 'ACSurfCurrentMeshes'
+	$begin 'ACSurfAdpFiles'
+		IDDblMap(75, 1, 78, 2)
+		$begin 'DataMap'
+			VID=57
+			Ver=0
+			'ASM.ADP'(DblID=75, Dir='DV57_S15_V0_P75_ASM.ADP/')
+			'ASM.ADP'(DblID=78, Dir='DV57_S15_V0_P78_ASM.ADP/')
+		$end 'DataMap'
+	$end 'ACSurfAdpFiles'
+	$begin 'SU'
+	$end 'SU'
+	$begin 'DCRLastPassNumbers'
+		'DCR.LP'(VID=57, Ver=0, P=2)
+	$end 'DCRLastPassNumbers'
+	$begin 'ACRLastPassNumbers'
+		'ACR.LP'(VID=57, Ver=0, P=2)
+	$end 'ACRLastPassNumbers'
+	$begin 'ACLLastPassNumbers'
+		'ACL.LP'(VID=57, Ver=0, P=2)
+	$end 'ACLLastPassNumbers'
+	$begin 'DCPLastPassNumbers'
+		'DCP.LP'(VID=57, Ver=0, P=2)
+	$end 'DCPLastPassNumbers'
+	$begin 'Profiles'
+		PRF(VID=57, Ver=0, File='DV57_S15_V0.profile')
+	$end 'Profiles'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=56002
+			MI(VID=57, Ver=0, Dir='DV57_S15_MI56002_V0.sd/')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=56003
+			MI(VID=57, Ver=0, Dir='DV57_S15_MI56003_V0.sd/')
+		$end 'SubData'
+	$end 'MI'
+$end 'SolutionBlock4'
+$begin 'SolutionBlock1'
+	ProductName='Q3D Extractor'
+	CircuitName='HW2_Question2'
+	VersionID=10
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=80
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='', ID=57)
+	$end 'VariationIDs'
+	VersionID2=13
+	$begin 'InitialSurfaceMeshes'
+		SM(VID=57, Ver=10, Dir='DV57_V10_SM.imesh/')
+	$end 'InitialSurfaceMeshes'
+	$begin 'InitialVolumeMeshes'
+		VM(VID=57, Ver=13, Dir='DV57_V13_VM.imesh/')
+	$end 'InitialVolumeMeshes'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=56002
+			MI(VID=57, Ver=13, Dir='DV57_MI56002_V13.sd/')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=56003
+			MI(VID=57, Ver=10, Dir='DV57_MI56003_V10.sd/')
+		$end 'SubData'
+	$end 'MI'
+$end 'SolutionBlock1'
+$begin 'SolutionBlock5'
+	$begin '56002'
+		ConvSetupName='DCRLConv'
+		MaxPasses='(10, 1)'
+		MinPasses='(1, 1)'
+		ConvTarget='(1, 1)'
+		ConvTargetConsecPasses='N/A'
+		ConvCurrentConsecPasses='N/A'
+		c(type='C', tet=6, dP='(1, 0)', p=1, dRL='(N/A, N/A)')
+		c(type='C', tet=8, dP='(2, 0)', p=2, dR=1.86487e-09, dRL='(1.8649e-09, N/A)')
+	$end '56002'
+	$begin '56003'
+		ConvSetupName='ACRLConv'
+		MaxPasses='10'
+		MinPasses='1'
+		ConvTarget='1'
+		ConvTargetConsecPasses='N/A'
+		ConvCurrentConsecPasses='N/A'
+		c(tri=12, p=1)
+		c(tri=16, delta=0.118247, p=2)
+	$end '56003'
+$end 'SolutionBlock5'
+$begin '$index$'
+	$begin '$index$'
+		SolutionBlock5(pos=5249, lin=198, lvl=0)
+		SolutionBlock2(pos=370, lin=1, lvl=0)
+		BlockMapName(pos=1163, lin=40, lvl=0)
+		SolutionBlock3(pos=1629, lin=47, lvl=0)
+		SolutionBlock4(pos=2816, lin=102, lvl=0)
+		SolutionBlock1(pos=4549, lin=169, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=5837, lin=220, lvl=0)
+	$end '$index$'
+$end '$index$'

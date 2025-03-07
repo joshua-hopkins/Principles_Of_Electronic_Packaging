@@ -1,0 +1,95 @@
+'<header>'
+   file_format_version 'ansoft_cmu_abstract_model_version 1.0.0'
+   mesh_file_checksum 'npts=8; nedges= 18; nelem= 12; nfacets= 6     2     2     2     2     2     2'
+'</header>'
+'<model>'
+   modelname 'no name yet'
+   user_unit_name mm
+   unit_conv 1000
+   nbodies 1
+   facet_face_map_size 6
+   '<body>'
+      bodyid 34
+      bodyname Box1
+      sheet_body 0
+      nfaces 6
+      nedges 0
+      nmodelverts 0
+      '<face>'
+         face_id 35
+         ncofacets 1
+         '<cofacet>'
+            facet_id 111
+            order 0
+         '</cofacet>'
+      '</face>'
+      '<face>'
+         face_id 37
+         ncofacets 1
+         '<cofacet>'
+            facet_id 106
+            order 0
+         '</cofacet>'
+      '</face>'
+      '<face>'
+         face_id 38
+         ncofacets 1
+         '<cofacet>'
+            facet_id 107
+            order 0
+         '</cofacet>'
+      '</face>'
+      '<face>'
+         face_id 39
+         ncofacets 1
+         '<cofacet>'
+            facet_id 109
+            order 0
+         '</cofacet>'
+      '</face>'
+      '<face>'
+         face_id 36
+         ncofacets 1
+         '<cofacet>'
+            facet_id 110
+            order 0
+         '</cofacet>'
+      '</face>'
+      '<face>'
+         face_id 40
+         ncofacets 1
+         '<cofacet>'
+            facet_id 108
+            order 0
+         '</cofacet>'
+      '</face>'
+      '<vertices>'
+      '</vertices>'
+   '</body>'
+   '<facet_face_map>'
+      '<entry>'
+         facet_id 106
+         face_id 37
+      '</entry>'
+      '<entry>'
+         facet_id 107
+         face_id 38
+      '</entry>'
+      '<entry>'
+         facet_id 108
+         face_id 40
+      '</entry>'
+      '<entry>'
+         facet_id 109
+         face_id 39
+      '</entry>'
+      '<entry>'
+         facet_id 110
+         face_id 36
+      '</entry>'
+      '<entry>'
+         facet_id 111
+         face_id 35
+      '</entry>'
+   '</facet_face_map>'
+'</model>'

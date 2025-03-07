@@ -1,0 +1,71 @@
+faces_v3 42
+f 1  27 26 24  s 0 -1  1  2146483648 
+f 2  24 25 27  s 0 -1  1  2146483648 
+f 3  14 13 11  s 0 -1  1  2146483649 
+f 4  13 10 11  s 0 -1  1  2146483649 
+f 5  19 11 17  s 0 -1  1  2146483649 
+f 6  11 19 14  s 0 -1  1  2146483649 
+f 7  10 27 25  s 0 -1  1  2146483649 
+f 8  27 10 13  s 0 -1  1  2146483649 
+f 9  11 9 12  s 0 -1  1  2146483650 
+f 10  9 11 10  s 0 -1  1  2146483650 
+f 11  11 21 17  s 0 -1  1  2146483650 
+f 12  21 11 12  s 0 -1  1  2146483650 
+f 13  9 25 24  s 0 -1  1  2146483650 
+f 14  25 9 10  s 0 -1  1  2146483650 
+f 15  12 15 16  s 0 -1  1  2146483651 
+f 16  15 12 9  s 0 -1  1  2146483651 
+f 17  12 22 21  s 0 -1  1  2146483651 
+f 18  22 12 16  s 0 -1  1  2146483651 
+f 19  26 9 24  s 0 -1  1  2146483651 
+f 20  9 26 15  s 0 -1  1  2146483651 
+f 21  18 22 19  s 0 -1  1  2146483652 
+f 22  22 18 21  s 0 -1  1  2146483652 
+f 23  18 19 17  s 0 -1  1  2146483652 
+f 24  21 18 17  s 0 -1  1  2146483652 
+f 25  16 15 14  s 0 -1  1  2146483653 
+f 26  13 14 15  s 0 -1  1  2146483653 
+f 27  22 14 19  s 0 -1  1  2146483653 
+f 28  14 22 16  s 0 -1  1  2146483653 
+f 29  13 26 27  s 0 -1  1  2146483653 
+f 30  26 13 15  s 0 -1  1  2146483653 
+f 31  1 2 3  s 34 0  1  36 
+f 32  1 3 4  s 34 0  1  36 
+f 33  6 5 7  s 34 0  1  35 
+f 34  5 6 8  s 34 0  1  35 
+f 35  1 4 5  s 34 0  1  37 
+f 36  5 8 1  s 34 0  1  37 
+f 37  1 8 2  s 34 0  1  38 
+f 38  8 6 2  s 34 0  1  38 
+f 39  5 4 3  s 34 0  1  40 
+f 40  5 3 7  s 34 0  1  40 
+f 41  2 6 3  s 34 0  1  39 
+f 42  6 7 3  s 34 0  1  39 
+end_face
+NumFaces 12
+35 34 
+37 34 
+38 34 
+39 34 
+36 34 
+40 34 
+2146483648 0 
+2146483649 0 
+2146483650 0 
+2146483651 0 
+2146483652 0 
+2146483653 0 
+34 0 Box1 bodyid sheetflag bodyname
+0 0 background bodyid sheetflag bodyname
+NumExplicitlyPreserved 0
+end_explicitly_preserved_edges
+NumCurvedFaces 0
+EndCurvedFacesSection
+NumTrueMidPoints 0
+EndTrueMidPointsSection
+NumIncompletelyPulledTrueSurfacePoints 0
+EndIncompletelyPulledTrueSurfacePointsSection
+Num_meshvert2modelverts 0
+End_meshvert2modelverts
+Num_meshedge2modeledges 0
+End_meshedge2modeledges

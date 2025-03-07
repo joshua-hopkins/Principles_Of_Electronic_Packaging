@@ -1,0 +1,46 @@
+$begin 'Mesh'
+	verbose=false
+	$begin 'facets'
+		f(name='unknown', type=2, f=106, object2did=-1, inside_solid_id=0, outside_solid_id=34, planar_flag=2, material=-1, solid=-1, material_type=1, conductivity_real=41000000, conductivity_imag=0, permeability=0.99996, permittivity=0, loss_tan=0, mag_loss_tan=0, reflen=0, edge_reflen=0, thickness=1.151885645872258e-05, upperz=0, roughness=0, h_radius=0, h_sRatio=0)
+		f(name='unknown', type=2, f=107, object2did=-1, inside_solid_id=34, outside_solid_id=0, planar_flag=2, material=-1, solid=-1, material_type=5, conductivity_real=41000000, conductivity_imag=0, permeability=0.99996, permittivity=0, loss_tan=0, mag_loss_tan=0, reflen=0, edge_reflen=0, thickness=1.151885645872258e-05, upperz=0, roughness=0, h_radius=0, h_sRatio=0)
+		f(name='unknown', type=2, f=108, object2did=-1, inside_solid_id=0, outside_solid_id=34, planar_flag=2, material=-1, solid=-1, material_type=5, conductivity_real=41000000, conductivity_imag=0, permeability=0.99996, permittivity=0, loss_tan=0, mag_loss_tan=0, reflen=0, edge_reflen=0, thickness=1.151885645872258e-05, upperz=0, roughness=0, h_radius=0, h_sRatio=0)
+		f(name='unknown', type=2, f=109, object2did=-1, inside_solid_id=0, outside_solid_id=34, planar_flag=2, material=-1, solid=-1, material_type=1, conductivity_real=41000000, conductivity_imag=0, permeability=0.99996, permittivity=0, loss_tan=0, mag_loss_tan=0, reflen=0, edge_reflen=0, thickness=1.151885645872258e-05, upperz=0, roughness=0, h_radius=0, h_sRatio=0)
+		f(name='unknown', type=2, f=110, object2did=-1, inside_solid_id=34, outside_solid_id=0, planar_flag=2, material=-1, solid=-1, material_type=1, conductivity_real=41000000, conductivity_imag=0, permeability=0.99996, permittivity=0, loss_tan=0, mag_loss_tan=0, reflen=0, edge_reflen=0, thickness=1.151885645872258e-05, upperz=0, roughness=0, h_radius=0, h_sRatio=0)
+		f(name='unknown', type=2, f=111, object2did=-1, inside_solid_id=0, outside_solid_id=34, planar_flag=2, material=-1, solid=-1, material_type=1, conductivity_real=41000000, conductivity_imag=0, permeability=0.99996, permittivity=0, loss_tan=0, mag_loss_tan=0, reflen=0, edge_reflen=0, thickness=1.151885645872258e-05, upperz=0, roughness=0, h_radius=0, h_sRatio=0)
+	$end 'facets'
+	$begin 'points'
+		box(min_x=-0.000699999999999999, min_y=-1.27e-05, min_z=-1.27e-05, max_x=0.0103, max_y=0.0002667, max_z=3.81e-05)
+		min_d=9.999999999999999e-12
+		n_points=10
+		p[4: 1, -0.0002, 0, 0]
+		p[4: 2, -0.0002, 0.000254, 0]
+		p[4: 3, 0.0098, 0.000254, 0]
+		p[4: 4, 0.0098, 0, 0]
+		p[4: 5, 0.0098, 0, 2.54e-05]
+		p[4: 6, -0.0002, 0.000254, 2.54e-05]
+		p[4: 7, 0.0098, 0.000254, 2.54e-05]
+		p[4: 8, -0.0002, 0, 2.54e-05]
+		p[4: 9, 0.0048, 0, 2.54e-05]
+		p[4: 10, 0.0048, 0.000254, 0]
+	$end 'points'
+	$begin 'elements'
+		t[6: 1, 2, 1, 6, 107, 0]
+		t[6: 2, 8, 6, 1, 107, 0]
+		t[6: 3, 3, 4, 7, 108, 0]
+		t[6: 4, 5, 7, 4, 108, 0]
+		t[6: 5, 9, 5, 4, 106, 0]
+		t[6: 6, 9, 8, 6, 111, 0]
+		t[6: 7, 9, 4, 1, 106, 0]
+		t[6: 8, 1, 8, 9, 106, 0]
+		t[6: 9, 7, 5, 9, 111, 0]
+		t[6: 10, 9, 6, 7, 111, 0]
+		t[6: 11, 10, 3, 7, 109, 0]
+		t[6: 12, 2, 10, 1, 110, 0]
+		t[6: 13, 6, 2, 10, 109, 0]
+		t[6: 14, 10, 7, 6, 109, 0]
+		t[6: 15, 10, 3, 4, 110, 0]
+		t[6: 16, 4, 1, 10, 110, 0]
+	$end 'elements'
+	$begin 'wires'
+	$end 'wires'
+$end 'Mesh'

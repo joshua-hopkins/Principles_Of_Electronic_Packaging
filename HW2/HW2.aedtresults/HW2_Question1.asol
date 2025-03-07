@@ -1,0 +1,296 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002025, month=000000000002, day=000000000026, hour=000000000023, min=000000000047, sec=000000000051)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000007490, lin=000000000275, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'SolutionBlock2'
+	SolutionName='LastAdaptive'
+	SolutionID=14
+	V=0
+	$begin 'States'
+		F(VID=53, Ver=0)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(500000000)
+		SolutionType=6
+		CenterFreq=0
+	$end 'Definition'
+	SweepID=-1
+	$begin 'MDCR'
+		$begin 'SubData'
+			ID=0
+			MDCR(VID=53, Ver=0, File='DV53_SOL14_MDCR0_V0.sd')
+		$end 'SubData'
+	$end 'MDCR'
+	$begin 'MDCL'
+		$begin 'SubData'
+			ID=0
+			MDCL(VID=53, Ver=0, File='DV53_SOL14_MDCL0_V0.sd')
+		$end 'SubData'
+	$end 'MDCL'
+	$begin 'MADCR'
+		$begin 'SubData'
+			ID=0
+			MADCR(VID=53, Ver=0, File='DV53_SOL14_MADCR0_V0.sd')
+		$end 'SubData'
+	$end 'MADCR'
+	$begin 'MACL'
+		$begin 'SubData'
+			ID=0
+			MACL(VID=53, Ver=0, File='DV53_SOL14_MACL0_V0.sd')
+		$end 'SubData'
+	$end 'MACL'
+	$begin 'MDCP'
+		$begin 'SubData'
+			ID=0
+			MDCP(VID=53, Ver=0, File='DV53_SOL14_MDCP0_V0.sd')
+		$end 'SubData'
+	$end 'MDCP'
+$end 'SolutionBlock2'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=13, Instance=\'\', Solution=-3, VersionID=0)'='SolutionBlock5'
+	'SolutionKey(SimSetup=13, Instance=\'SetupDefinition\', Solution=-1, VersionID=0)'='SolutionBlock4'
+	'SolutionKey(SimSetup=13, Instance=\'SolutionDefinition\', Solution=14, VersionID=0)'='SolutionBlock2'
+	'SolutionKey(SimSetup=13, Instance=\'SolutionDefinition\', Solution=15, VersionID=0)'='SolutionBlock3'
+$end 'BlockMapName'
+$begin 'SolutionBlock3'
+	SolutionName='AdaptivePass'
+	SolutionID=15
+	V=0
+	$begin 'States'
+		F(VID=53, Ver=0)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(500000000)
+		SolutionType=6
+		CenterFreq=0
+	$end 'Definition'
+	SweepID=-1
+	$begin 'MDCR'
+		$begin 'SubData'
+			ID=1
+			MDCR(VID=53, Ver=0, File='DV53_SOL15_MDCR1_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			MDCR(VID=53, Ver=0, File='DV53_SOL15_MDCR2_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=3
+			MDCR(VID=53, Ver=0, File='DV53_SOL15_MDCR3_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=4
+			MDCR(VID=53, Ver=0, File='DV53_SOL15_MDCR4_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=5
+			MDCR(VID=53, Ver=0, File='DV53_SOL15_MDCR5_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=6
+			MDCR(VID=53, Ver=0, File='DV53_SOL15_MDCR6_V0.sd')
+		$end 'SubData'
+	$end 'MDCR'
+	$begin 'MDCL'
+		$begin 'SubData'
+			ID=6
+			MDCL(VID=53, Ver=0, File='DV53_SOL15_MDCL6_V0.sd')
+		$end 'SubData'
+	$end 'MDCL'
+	$begin 'MADCR'
+		$begin 'SubData'
+			ID=1
+			MADCR(VID=53, Ver=0, File='DV53_SOL15_MADCR1_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			MADCR(VID=53, Ver=0, File='DV53_SOL15_MADCR2_V0.sd')
+		$end 'SubData'
+	$end 'MADCR'
+	$begin 'MACL'
+		$begin 'SubData'
+			ID=1
+			MACL(VID=53, Ver=0, File='DV53_SOL15_MACL1_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			MACL(VID=53, Ver=0, File='DV53_SOL15_MACL2_V0.sd')
+		$end 'SubData'
+	$end 'MACL'
+	$begin 'MDCP'
+		$begin 'SubData'
+			ID=1
+			MDCP(VID=53, Ver=0, File='DV53_SOL15_MDCP1_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			MDCP(VID=53, Ver=0, File='DV53_SOL15_MDCP2_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=3
+			MDCP(VID=53, Ver=0, File='DV53_SOL15_MDCP3_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=4
+			MDCP(VID=53, Ver=0, File='DV53_SOL15_MDCP4_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=5
+			MDCP(VID=53, Ver=0, File='DV53_SOL15_MDCP5_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=6
+			MDCP(VID=53, Ver=0, File='DV53_SOL15_MDCP6_V0.sd')
+		$end 'SubData'
+	$end 'MDCP'
+$end 'SolutionBlock3'
+$begin 'SolutionBlock4'
+	SimSetupID=13
+	SimSetupName='Setup1'
+	VersionID=0
+	SolveSetupID=0
+	$begin 'SU'
+	$end 'SU'
+	$begin 'DCVolCurrentPassNum'
+		'DCVol.CP'(VID=53, Ver=0, P=6)
+	$end 'DCVolCurrentPassNum'
+	$begin 'DCVolCurrentMeshes'
+		'DVM.cmesh'(VID=53, Ver=0, Dir='DV53_S13_V0_DVM.cmesh/')
+	$end 'DCVolCurrentMeshes'
+	$begin 'DCVolAdpFiles'
+		IDDblMap(63, 1, 66, 2, 69, 3, 72, 4, 75, 5, 78, 6)
+		$begin 'DataMap'
+			VID=53
+			Ver=0
+			'DVM.ADP'(DblID=63, Dir='DV53_S13_V0_P63_DVM.ADP/')
+			'DVM.ADP'(DblID=66, Dir='DV53_S13_V0_P66_DVM.ADP/')
+			'DVM.ADP'(DblID=69, Dir='DV53_S13_V0_P69_DVM.ADP/')
+			'DVM.ADP'(DblID=72, Dir='DV53_S13_V0_P72_DVM.ADP/')
+			'DVM.ADP'(DblID=75, Dir='DV53_S13_V0_P75_DVM.ADP/')
+			'DVM.ADP'(DblID=78, Dir='DV53_S13_V0_P78_DVM.ADP/')
+		$end 'DataMap'
+	$end 'DCVolAdpFiles'
+	$begin 'SU'
+	$end 'SU'
+	$begin 'ACSurfCurrentPassNum'
+		'ACSurf.CP'(VID=53, Ver=0, P=2)
+	$end 'ACSurfCurrentPassNum'
+	$begin 'ACSurfCurrentMeshes'
+		'ASM.cmesh'(VID=53, Ver=0, Dir='DV53_S13_V0_ASM.cmesh/')
+	$end 'ACSurfCurrentMeshes'
+	$begin 'ACSurfAdpFiles'
+		IDDblMap(85, 1, 88, 2)
+		$begin 'DataMap'
+			VID=53
+			Ver=0
+			'ASM.ADP'(DblID=85, Dir='DV53_S13_V0_P85_ASM.ADP/')
+			'ASM.ADP'(DblID=88, Dir='DV53_S13_V0_P88_ASM.ADP/')
+		$end 'DataMap'
+	$end 'ACSurfAdpFiles'
+	$begin 'SU'
+	$end 'SU'
+	$begin 'DCRLastPassNumbers'
+		'DCR.LP'(VID=53, Ver=0, P=5)
+	$end 'DCRLastPassNumbers'
+	$begin 'DCLLastPassNumbers'
+		'DCL.LP'(VID=53, Ver=0, P=1)
+	$end 'DCLLastPassNumbers'
+	$begin 'ACRLastPassNumbers'
+		'ACR.LP'(VID=53, Ver=0, P=2)
+	$end 'ACRLastPassNumbers'
+	$begin 'ACLLastPassNumbers'
+		'ACL.LP'(VID=53, Ver=0, P=2)
+	$end 'ACLLastPassNumbers'
+	$begin 'DCPLastPassNumbers'
+		'DCP.LP'(VID=53, Ver=0, P=5)
+	$end 'DCPLastPassNumbers'
+	$begin 'Profiles'
+		PRF(VID=53, Ver=0, File='DV53_S13_V0.profile')
+	$end 'Profiles'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=56002
+			MI(VID=53, Ver=0, Dir='DV53_S13_MI56002_V0.sd/')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=56003
+			MI(VID=53, Ver=0, Dir='DV53_S13_MI56003_V0.sd/')
+		$end 'SubData'
+	$end 'MI'
+$end 'SolutionBlock4'
+$begin 'SolutionBlock1'
+	ProductName='Q3D Extractor'
+	CircuitName='HW2_Question1'
+	VersionID=6
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=92
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='', ID=53)
+	$end 'VariationIDs'
+	VersionID2=9
+	$begin 'InitialSurfaceMeshes'
+		SM(VID=53, Ver=6, Dir='DV53_V6_SM.imesh/')
+	$end 'InitialSurfaceMeshes'
+	$begin 'InitialVolumeMeshes'
+		VM(VID=53, Ver=9, Dir='DV53_V9_VM.imesh/')
+	$end 'InitialVolumeMeshes'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=56002
+			MI(VID=53, Ver=9, Dir='DV53_MI56002_V9.sd/')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=56003
+			MI(VID=53, Ver=6, Dir='DV53_MI56003_V6.sd/')
+		$end 'SubData'
+	$end 'MI'
+$end 'SolutionBlock1'
+$begin 'SolutionBlock5'
+	$begin '56002'
+		ConvSetupName='DCRLConv'
+		MaxPasses='(10, 1)'
+		MinPasses='(1, 1)'
+		ConvTarget='(1, 1)'
+		ConvTargetConsecPasses='N/A'
+		ConvCurrentConsecPasses='N/A'
+		c(p=1, tet=63, dRL='(N/A, N/A)', type='C', dP='(1, 0)')
+		c(p=2, tet=84, dR=3.36463, dRL='(3.3646, N/A)', type='C', dP='(2, 0)')
+		c(p=3, tet=110, dR=1.77837, dRL='(1.7784, N/A)', type='C', dP='(3, 0)')
+		c(p=4, tet=149, dR=2.4139, dRL='(2.4139, N/A)', type='C', dP='(4, 0)')
+		c(p=5, tet=197, dR=1.38977, dRL='(1.3898, N/A)', type='C', dP='(5, 0)')
+		c(p=6, tet=262, dR=0.741287, dRL='(0.74129, N/A)', type='M', dP='(5, 1)')
+	$end '56002'
+	$begin '56003'
+		ConvSetupName='ACRLConv'
+		MaxPasses='10'
+		MinPasses='1'
+		ConvTarget='1'
+		ConvTargetConsecPasses='N/A'
+		ConvCurrentConsecPasses='N/A'
+		c(p=1, tri=44)
+		c(p=2, tri=58, delta=0.0799117)
+	$end '56003'
+$end 'SolutionBlock5'
+$begin '$index$'
+	$begin '$index$'
+		SolutionBlock5(pos=6610, lin=249, lvl=0)
+		SolutionBlock2(pos=370, lin=1, lvl=0)
+		BlockMapName(pos=1289, lin=46, lvl=0)
+		SolutionBlock3(pos=1755, lin=53, lvl=0)
+		SolutionBlock4(pos=3852, lin=146, lvl=0)
+		SolutionBlock1(pos=5920, lin=220, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=7490, lin=275, lvl=0)
+	$end '$index$'
+$end '$index$'

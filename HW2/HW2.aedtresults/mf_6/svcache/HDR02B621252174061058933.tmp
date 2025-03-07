@@ -1,0 +1,26 @@
+SimValueCacheVersionID=1
+$begin 'SimValueInfos'
+	NextUniqueID=1
+	MoveBackwards=false
+	$begin 'SimValue'
+		ID=0
+		$begin 'SimValueParams'
+			QuantityName='DCL(Bondwire1:Source1,Bondwire1:Source1)'
+			ValueState(22, 3, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+$end 'SimValueInfos'
+$begin 'SimValueCache'
+	$begin 'DesignMap'
+		DesignID=6
+		$begin 'SolutionMap'
+			$begin 'ContextMap'
+				SolutionID=12
+			$end 'ContextMap'
+			$begin 'ContextMap'
+				SolutionID=13
+			$end 'ContextMap'
+		$end 'SolutionMap'
+	$end 'DesignMap'
+$end 'SimValueCache'

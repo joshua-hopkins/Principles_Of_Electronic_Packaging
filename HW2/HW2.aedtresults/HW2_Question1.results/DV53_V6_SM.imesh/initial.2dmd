@@ -1,0 +1,263 @@
+'<header>'
+   file_format_version 'ansoft_cmu_abstract_model_version 1.0.0'
+   mesh_file_checksum 'npts=24; nedges= 66; nelem= 44; nfacets= 20     2     2     4     2     2     2     2     2     2     2'
+'</header>'
+'<model>'
+   modelname 'no name yet'
+   user_unit_name mm
+   unit_conv 1000
+   nbodies 1
+   facet_face_map_size 20
+   '<body>'
+      bodyid 94
+      bodyname Bondwire1
+      sheet_body 0
+      nfaces 20
+      nedges 0
+      nmodelverts 0
+      '<face>'
+         face_id 95
+         ncofacets 1
+         '<cofacet>'
+            facet_id 42
+            order 0
+         '</cofacet>'
+      '</face>'
+      '<face>'
+         face_id 96
+         ncofacets 1
+         '<cofacet>'
+            facet_id 28
+            order 0
+         '</cofacet>'
+      '</face>'
+      '<face>'
+         face_id 97
+         ncofacets 1
+         '<cofacet>'
+            facet_id 29
+            order 0
+         '</cofacet>'
+      '</face>'
+      '<face>'
+         face_id 98
+         ncofacets 1
+         '<cofacet>'
+            facet_id 31
+            order 0
+         '</cofacet>'
+      '</face>'
+      '<face>'
+         face_id 99
+         ncofacets 1
+         '<cofacet>'
+            facet_id 32
+            order 0
+         '</cofacet>'
+      '</face>'
+      '<face>'
+         face_id 100
+         ncofacets 1
+         '<cofacet>'
+            facet_id 33
+            order 0
+         '</cofacet>'
+      '</face>'
+      '<face>'
+         face_id 101
+         ncofacets 1
+         '<cofacet>'
+            facet_id 34
+            order 0
+         '</cofacet>'
+      '</face>'
+      '<face>'
+         face_id 102
+         ncofacets 1
+         '<cofacet>'
+            facet_id 35
+            order 0
+         '</cofacet>'
+      '</face>'
+      '<face>'
+         face_id 103
+         ncofacets 1
+         '<cofacet>'
+            facet_id 36
+            order 0
+         '</cofacet>'
+      '</face>'
+      '<face>'
+         face_id 104
+         ncofacets 1
+         '<cofacet>'
+            facet_id 37
+            order 0
+         '</cofacet>'
+      '</face>'
+      '<face>'
+         face_id 105
+         ncofacets 1
+         '<cofacet>'
+            facet_id 38
+            order 0
+         '</cofacet>'
+      '</face>'
+      '<face>'
+         face_id 106
+         ncofacets 1
+         '<cofacet>'
+            facet_id 39
+            order 0
+         '</cofacet>'
+      '</face>'
+      '<face>'
+         face_id 107
+         ncofacets 1
+         '<cofacet>'
+            facet_id 40
+            order 0
+         '</cofacet>'
+      '</face>'
+      '<face>'
+         face_id 108
+         ncofacets 1
+         '<cofacet>'
+            facet_id 41
+            order 0
+         '</cofacet>'
+      '</face>'
+      '<face>'
+         face_id 109
+         ncofacets 1
+         '<cofacet>'
+            facet_id 43
+            order 0
+         '</cofacet>'
+      '</face>'
+      '<face>'
+         face_id 110
+         ncofacets 1
+         '<cofacet>'
+            facet_id 44
+            order 0
+         '</cofacet>'
+      '</face>'
+      '<face>'
+         face_id 111
+         ncofacets 1
+         '<cofacet>'
+            facet_id 45
+            order 0
+         '</cofacet>'
+      '</face>'
+      '<face>'
+         face_id 112
+         ncofacets 1
+         '<cofacet>'
+            facet_id 46
+            order 0
+         '</cofacet>'
+      '</face>'
+      '<face>'
+         face_id 113
+         ncofacets 1
+         '<cofacet>'
+            facet_id 47
+            order 0
+         '</cofacet>'
+      '</face>'
+      '<face>'
+         face_id 114
+         ncofacets 1
+         '<cofacet>'
+            facet_id 30
+            order 0
+         '</cofacet>'
+      '</face>'
+      '<vertices>'
+      '</vertices>'
+   '</body>'
+   '<facet_face_map>'
+      '<entry>'
+         facet_id 28
+         face_id 96
+      '</entry>'
+      '<entry>'
+         facet_id 29
+         face_id 97
+      '</entry>'
+      '<entry>'
+         facet_id 30
+         face_id 114
+      '</entry>'
+      '<entry>'
+         facet_id 31
+         face_id 98
+      '</entry>'
+      '<entry>'
+         facet_id 32
+         face_id 99
+      '</entry>'
+      '<entry>'
+         facet_id 33
+         face_id 100
+      '</entry>'
+      '<entry>'
+         facet_id 34
+         face_id 101
+      '</entry>'
+      '<entry>'
+         facet_id 35
+         face_id 102
+      '</entry>'
+      '<entry>'
+         facet_id 36
+         face_id 103
+      '</entry>'
+      '<entry>'
+         facet_id 37
+         face_id 104
+      '</entry>'
+      '<entry>'
+         facet_id 38
+         face_id 105
+      '</entry>'
+      '<entry>'
+         facet_id 39
+         face_id 106
+      '</entry>'
+      '<entry>'
+         facet_id 40
+         face_id 107
+      '</entry>'
+      '<entry>'
+         facet_id 41
+         face_id 108
+      '</entry>'
+      '<entry>'
+         facet_id 42
+         face_id 95
+      '</entry>'
+      '<entry>'
+         facet_id 43
+         face_id 109
+      '</entry>'
+      '<entry>'
+         facet_id 44
+         face_id 110
+      '</entry>'
+      '<entry>'
+         facet_id 45
+         face_id 111
+      '</entry>'
+      '<entry>'
+         facet_id 46
+         face_id 112
+      '</entry>'
+      '<entry>'
+         facet_id 47
+         face_id 113
+      '</entry>'
+   '</facet_face_map>'
+'</model>'
