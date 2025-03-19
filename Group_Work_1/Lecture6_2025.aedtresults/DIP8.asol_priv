@@ -1,0 +1,381 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002025, month=000000000002, day=000000000018, hour=000000000017, min=000000000057, sec=000000000057)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000000000, lin=000000000001, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'SolutionBlock8'
+	SimSetupID=29
+	SimSetupName='Setup1'
+	VersionID=191
+	SolveSetupID=0
+	$begin 'CapSurfCurrentPassNum'
+		'CapSurf.CP'(VID=69, Ver=191, P=2)
+	$end 'CapSurfCurrentPassNum'
+	$begin 'CapSurfCurrentMeshes'
+		Vmap(0, 120, 191, 197)
+		'CSM.cmesh'(VID=69, Ver=191, Dir='DV69_S29_V197_CSM.cmesh/')
+	$end 'CapSurfCurrentMeshes'
+	$begin 'CapSurfAdpFiles'
+		Vmap(0, 121, 120, 198, 191, 201)
+		IDDblMap(82, 1, 86, 2, 90, 3, 94, 4)
+		$begin 'DataMap'
+			VID=69
+			Ver=191
+			'CSM.ADP'(DblID=82, Dir='DV69_S29_V201_P82_CSM.ADP/')
+			'CSM.ADP'(DblID=86, Dir='DV69_S29_V201_P86_CSM.ADP/')
+		$end 'DataMap'
+	$end 'CapSurfAdpFiles'
+	$begin 'SU'
+	$end 'SU'
+	$begin 'DCVolCurrentPassNum'
+		'DCVol.CP'(VID=69, Ver=191, P=3)
+	$end 'DCVolCurrentPassNum'
+	$begin 'DCVolCurrentMeshes'
+		Vmap(0, 123, 191, 202)
+		'DVM.cmesh'(VID=69, Ver=191, Dir='DV69_S29_V202_DVM.cmesh/')
+	$end 'DCVolCurrentMeshes'
+	$begin 'DCVolAdpFiles'
+		Vmap(0, 124, 123, 203, 191, 206)
+		IDDblMap(99, 1, 102, 2, 281, 3)
+		$begin 'DataMap'
+			VID=69
+			Ver=191
+			'DVM.ADP'(DblID=99, Dir='DV69_S29_V206_P99_DVM.ADP/')
+			'DVM.ADP'(DblID=102, Dir='DV69_S29_V206_P102_DVM.ADP/')
+			'DVM.ADP'(DblID=281, Dir='DV69_S29_V206_P281_DVM.ADP/')
+		$end 'DataMap'
+	$end 'DCVolAdpFiles'
+	$begin 'SU'
+		$begin 'SubData'
+			ID=1
+			Vmap(191, 277)
+			SU(VID=69, Ver=191, File='DV69_S29_SD1_V277.su')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			Vmap(191, 278)
+			SU(VID=69, Ver=191, File='DV69_S29_SD2_V278.su')
+		$end 'SubData'
+	$end 'SU'
+	$begin 'ACSurfCurrentPassNum'
+		'ACSurf.CP'(VID=69, Ver=191, P=3)
+	$end 'ACSurfCurrentPassNum'
+	$begin 'ACSurfCurrentMeshes'
+		Vmap(0, 126, 191, 207)
+		'ASM.cmesh'(VID=69, Ver=191, Dir='DV69_S29_V207_ASM.cmesh/')
+	$end 'ACSurfCurrentMeshes'
+	$begin 'ACSurfAdpFiles'
+		Vmap(0, 127, 126, 208, 191, 211)
+		IDDblMap(109, 1, 112, 2, 115, 3)
+		$begin 'DataMap'
+			VID=69
+			Ver=191
+			'ASM.ADP'(DblID=109, Dir='DV69_S29_V211_P109_ASM.ADP/')
+			'ASM.ADP'(DblID=112, Dir='DV69_S29_V211_P112_ASM.ADP/')
+			'ASM.ADP'(DblID=115, Dir='DV69_S29_V211_P115_ASM.ADP/')
+		$end 'DataMap'
+	$end 'ACSurfAdpFiles'
+	$begin 'SU'
+	$end 'SU'
+	$begin 'CapLastPassNumbers'
+		'Cap.LP'(VID=69, Ver=191, P=2)
+	$end 'CapLastPassNumbers'
+	$begin 'DCRLastPassNumbers'
+		'DCR.LP'(VID=69, Ver=191, P=2)
+	$end 'DCRLastPassNumbers'
+	$begin 'DCLLastPassNumbers'
+		'DCL.LP'(VID=69, Ver=191, P=1)
+	$end 'DCLLastPassNumbers'
+	$begin 'ACRLastPassNumbers'
+		'ACR.LP'(VID=69, Ver=191, P=3)
+	$end 'ACRLastPassNumbers'
+	$begin 'ACLLastPassNumbers'
+		'ACL.LP'(VID=69, Ver=191, P=3)
+	$end 'ACLLastPassNumbers'
+	$begin 'DCPLastPassNumbers'
+		'DCP.LP'(VID=69, Ver=191, P=2)
+	$end 'DCPLastPassNumbers'
+	$begin 'Profiles'
+		Vmap(0, 135, 136, 273, 137, 274, 138, 275, 191, 220)
+		PRF(VID=69, Ver=191, File='DV69_S29_V220.profile')
+	$end 'Profiles'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=56001
+			Vmap(0, 136, 191, 227)
+			MI(VID=69, Ver=191, Dir='DV69_S29_MI56001_V227.sd/')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=56002
+			Vmap(0, 137, 191, 228)
+			MI(VID=69, Ver=191, Dir='DV69_S29_MI56002_V228.sd/')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=56003
+			Vmap(0, 138, 191, 229)
+			MI(VID=69, Ver=191, Dir='DV69_S29_MI56003_V229.sd/')
+		$end 'SubData'
+	$end 'MI'
+$end 'SolutionBlock8'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=29, Instance=\'\', Solution=-3, VersionID=191)'='SolutionBlock9'
+	'SolutionKey(SimSetup=29, Instance=\'SetupDefinition\', Solution=-1, VersionID=191)'='SolutionBlock8'
+	'SolutionKey(SimSetup=29, Instance=\'SolutionDefinition\', Solution=30, VersionID=191)'='SolutionBlock6'
+	'SolutionKey(SimSetup=29, Instance=\'SolutionDefinition\', Solution=31, VersionID=191)'='SolutionBlock7'
+$end 'BlockMapName'
+$begin 'SolutionBlock1'
+	ProductName='Q3D Extractor'
+	CircuitName='DIP8'
+	VersionID=188
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=283
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='', ID=69)
+	$end 'VariationIDs'
+	VersionID2=190
+	$begin 'InitialSurfaceMeshes'
+		Vmap(3, 117, 188, 192)
+		SM(VID=69, Ver=188, Dir='DV69_V192_SM.imesh/')
+	$end 'InitialSurfaceMeshes'
+	$begin 'InitialVolumeMeshes'
+		Vmap(20, 118, 190, 193)
+		VM(VID=69, Ver=190, Dir='DV69_V193_VM.imesh/')
+	$end 'InitialVolumeMeshes'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=56001
+			Vmap(3, 119, 188, 194)
+			MI(VID=69, Ver=188, Dir='DV69_MI56001_V194.sd/')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=56002
+			Vmap(20, 120, 190, 195)
+			MI(VID=69, Ver=190, Dir='DV69_MI56002_V195.sd/')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=56003
+			Vmap(3, 121, 188, 196)
+			MI(VID=69, Ver=188, Dir='DV69_MI56003_V196.sd/')
+		$end 'SubData'
+	$end 'MI'
+$end 'SolutionBlock1'
+$begin 'SolutionBlock7'
+	SolutionName='AdaptivePass'
+	SolutionID=31
+	V=191
+	$begin 'States'
+		F(VID=69, Ver=191)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(1000000000)
+		SolutionType=6
+		CenterFreq=0
+	$end 'Definition'
+	SweepID=-1
+	$begin 'MCAP'
+		$begin 'SubData'
+			ID=1
+			Vmap(0, 146, 191, 245)
+			MCAP(VID=69, Ver=191, File='DV69_SOL31_MCAP1_V245.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			Vmap(0, 147, 191, 246)
+			MCAP(VID=69, Ver=191, File='DV69_SOL31_MCAP2_V246.sd')
+		$end 'SubData'
+	$end 'MCAP'
+	$begin 'MCOND'
+		$begin 'SubData'
+			ID=1
+			Vmap(0, 150, 191, 249)
+			MCOND(VID=69, Ver=191, File='DV69_SOL31_MCOND1_V249.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			Vmap(0, 151, 191, 250)
+			MCOND(VID=69, Ver=191, File='DV69_SOL31_MCOND2_V250.sd')
+		$end 'SubData'
+	$end 'MCOND'
+	$begin 'MDCR'
+		$begin 'SubData'
+			ID=1
+			Vmap(0, 154, 191, 253)
+			MDCR(VID=69, Ver=191, File='DV69_SOL31_MDCR1_V253.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			Vmap(0, 155, 191, 254)
+			MDCR(VID=69, Ver=191, File='DV69_SOL31_MDCR2_V254.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=3
+			Vmap(191, 280)
+			MDCR(VID=69, Ver=191, File='DV69_SOL31_MDCR3_V280.sd')
+		$end 'SubData'
+	$end 'MDCR'
+	$begin 'MDCL'
+		$begin 'SubData'
+			ID=3
+			Vmap(191, 282)
+			MDCL(VID=69, Ver=191, File='DV69_SOL31_MDCL3_V282.sd')
+		$end 'SubData'
+	$end 'MDCL'
+	$begin 'MADCR'
+		$begin 'SubData'
+			ID=1
+			Vmap(0, 157, 191, 256)
+			MADCR(VID=69, Ver=191, File='DV69_SOL31_MADCR1_V256.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			Vmap(0, 158, 191, 257)
+			MADCR(VID=69, Ver=191, File='DV69_SOL31_MADCR2_V257.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=3
+			Vmap(0, 159, 191, 258)
+			MADCR(VID=69, Ver=191, File='DV69_SOL31_MADCR3_V258.sd')
+		$end 'SubData'
+	$end 'MADCR'
+	$begin 'MACL'
+		$begin 'SubData'
+			ID=1
+			Vmap(0, 160, 191, 259)
+			MACL(VID=69, Ver=191, File='DV69_SOL31_MACL1_V259.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			Vmap(0, 161, 191, 260)
+			MACL(VID=69, Ver=191, File='DV69_SOL31_MACL2_V260.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=3
+			Vmap(0, 162, 191, 261)
+			MACL(VID=69, Ver=191, File='DV69_SOL31_MACL3_V261.sd')
+		$end 'SubData'
+	$end 'MACL'
+	$begin 'MDCP'
+		$begin 'SubData'
+			ID=1
+			Vmap(0, 163, 191, 262)
+			MDCP(VID=69, Ver=191, File='DV69_SOL31_MDCP1_V262.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			Vmap(0, 164, 191, 263)
+			MDCP(VID=69, Ver=191, File='DV69_SOL31_MDCP2_V263.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=3
+			Vmap(191, 279)
+			MDCP(VID=69, Ver=191, File='DV69_SOL31_MDCP3_V279.sd')
+		$end 'SubData'
+	$end 'MDCP'
+$end 'SolutionBlock7'
+$begin 'SolutionBlock6'
+	SolutionName='LastAdaptive'
+	SolutionID=30
+	V=191
+	$begin 'States'
+		F(VID=69, Ver=191)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(1000000000)
+		SolutionType=6
+		CenterFreq=0
+	$end 'Definition'
+	SweepID=-1
+	$begin 'MCAP'
+		$begin 'SubData'
+			ID=0
+			Vmap(0, 139, 191, 230)
+			MCAP(VID=69, Ver=191, File='DV69_SOL30_MCAP0_V230.sd')
+		$end 'SubData'
+	$end 'MCAP'
+	$begin 'MCOND'
+		$begin 'SubData'
+			ID=0
+			Vmap(0, 140, 191, 231)
+			MCOND(VID=69, Ver=191, File='DV69_SOL30_MCOND0_V231.sd')
+		$end 'SubData'
+	$end 'MCOND'
+	$begin 'MDCR'
+		$begin 'SubData'
+			ID=0
+			Vmap(0, 141, 191, 232)
+			MDCR(VID=69, Ver=191, File='DV69_SOL30_MDCR0_V232.sd')
+		$end 'SubData'
+	$end 'MDCR'
+	$begin 'MDCL'
+		$begin 'SubData'
+			ID=0
+			Vmap(0, 142, 191, 233)
+			MDCL(VID=69, Ver=191, File='DV69_SOL30_MDCL0_V233.sd')
+		$end 'SubData'
+	$end 'MDCL'
+	$begin 'MADCR'
+		$begin 'SubData'
+			ID=0
+			Vmap(0, 143, 191, 234)
+			MADCR(VID=69, Ver=191, File='DV69_SOL30_MADCR0_V234.sd')
+		$end 'SubData'
+	$end 'MADCR'
+	$begin 'MACL'
+		$begin 'SubData'
+			ID=0
+			Vmap(0, 144, 191, 235)
+			MACL(VID=69, Ver=191, File='DV69_SOL30_MACL0_V235.sd')
+		$end 'SubData'
+	$end 'MACL'
+	$begin 'MDCP'
+		$begin 'SubData'
+			ID=0
+			Vmap(0, 145, 191, 236)
+			MDCP(VID=69, Ver=191, File='DV69_SOL30_MDCP0_V236.sd')
+		$end 'SubData'
+	$end 'MDCP'
+$end 'SolutionBlock6'
+$begin 'SolutionBlock9'
+	$begin '56001'
+		ConvSetupName='CapConv'
+		MaxPasses='10'
+		MinPasses='1'
+		ConvTarget='1'
+		ConvTargetConsecPasses='N/A'
+		ConvCurrentConsecPasses='N/A'
+		c(p=1, tri=448)
+		c(p=2, delta=0.324445, tri=996)
+	$end '56001'
+	$begin '56002'
+		ConvSetupName='DCRLConv'
+		MaxPasses='(10, 1)'
+		MinPasses='(1, 1)'
+		ConvTarget='(1, 1)'
+		ConvTargetConsecPasses='N/A'
+		ConvCurrentConsecPasses='N/A'
+		c(dP='(1, 0)', type='C', tet=1926, p=1, dRL='(N/A, N/A)')
+		c(dP='(2, 0)', type='C', tet=2544, dR=2.03315, p=2, dRL='(2.0332, N/A)')
+		c(dP='(2, 1)', type='M', tet=3359, dR=0.470473, p=3, dRL='(0.47047, N/A)')
+	$end '56002'
+	$begin '56003'
+		ConvSetupName='ACRLConv'
+		MaxPasses='10'
+		MinPasses='1'
+		ConvTarget='1'
+		ConvTargetConsecPasses='N/A'
+		ConvCurrentConsecPasses='N/A'
+		c(p=1, tri=420)
+		c(p=2, tri=558, delta=1.65509)
+		c(p=3, tri=728, delta=0.780899)
+	$end '56003'
+$end 'SolutionBlock9'

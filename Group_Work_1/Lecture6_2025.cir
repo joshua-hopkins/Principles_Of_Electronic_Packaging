@@ -1,0 +1,26 @@
+* BEGIN ANSOFT HEADER
+* node 1    Bondwire_1:VCC_Source
+* node 2    Bondwire_8:GND_Source
+* node 3    Bondwire_1:VCC_Sink
+* node 4    Bondwire_8:GND_Sink
+*  Project: Lecture6_2025
+*   Design: DIP8
+*   Format: Ansys Nexxim
+*   Topckt: Lecture6_2025
+*  Creator: Ansys Electronics Desktop 2024.2.0
+*     Date: Tue Feb 18 18:08:30 2025
+* END ANSOFT HEADER
+
+.subckt Lecture6_2025 1 2 3 4
+X1 1 2 3 4 Lecture6_2025_series
+
+.subckt Lecture6_2025_series 1 2 3 4
+V1 1 5 dc 0.0
+V2 2 6 dc 0.0
+R1 5 7 0.134176010069
+R2 6 8 0.134873959093
+L1 7 3 5.22011599584e-09
+L2 8 4 5.19759055801e-09
+K1_2 L1 L2 -0.079838
+.ends Lecture6_2025_series
+.ends Lecture6_2025

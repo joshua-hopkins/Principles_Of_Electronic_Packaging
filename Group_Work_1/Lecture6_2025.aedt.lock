@@ -1,0 +1,42 @@
+$begin 'ConnectionParameters'
+	DesktopProcessID=10188
+	DesktopProcessPath='C:\\Program Files\\AnsysEM\\v242\\Win64\\ansysedt.exe'
+	LaunchedByWB=false
+	GRPCPort=50051
+	$begin 'DesktopStubBlock'
+		$begin 'CommDetails'
+			TransportType=1
+			IPAddress='172.27.12.60'
+			ListenPort='64436'
+			IPAddressVector[1: '10.227.175.97']
+		$end 'CommDetails'
+		$begin 'Marshall'
+			InstanceID=503
+			ProcID=10188
+			InterfaceID=1
+			FactoryIntID='DesktopInterfaceForWBProxyStubFactory'
+		$end 'Marshall'
+	$end 'DesktopStubBlock'
+	$begin 'DesktopBackgroundObjStubBlock'
+		$begin 'CommDetails'
+			TransportType=1
+			IPAddress='172.27.12.60'
+			ListenPort='64436'
+			IPAddressVector[1: '10.227.175.97']
+		$end 'CommDetails'
+		$begin 'Marshall'
+			InstanceID=505
+			ProcID=10188
+			InterfaceID=2
+			FactoryIntID='DesktopInterfaceForWBProxyStubFactory'
+		$end 'Marshall'
+	$end 'DesktopBackgroundObjStubBlock'
+	$begin 'WebClientBlock'
+		Url='http://Joshs_IdeaPad:45051/?server=ws://Joshs_IdeaPad:44539&token=d56b5817-276b-610d-d903-5e31bfdf7279&startTab=monitor/graph'
+		SecureUrl='https://Joshs_IdeaPad:45307/?server=wss://Joshs_IdeaPad:44795&token=d56b5817-276b-610d-d903-5e31bfdf7279&startTab=monitor/graph'
+		WsHost='Joshs_IdeaPad'
+		WsPort=44539
+		WssPort=44795
+		Token='d56b5817-276b-610d-d903-5e31bfdf7279'
+	$end 'WebClientBlock'
+$end 'ConnectionParameters'
