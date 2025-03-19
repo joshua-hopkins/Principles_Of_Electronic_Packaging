@@ -1,0 +1,182 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002025, month=000000000002, day=000000000026, hour=000000000023, min=000000000047, sec=000000000052)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000004353, lin=000000000161, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'SolutionBlock4'
+	SimSetupID=9
+	SimSetupName='Setup1'
+	VersionID=13
+	SolveSetupID=0
+	$begin 'SU'
+	$end 'SU'
+	$begin 'DCVolCurrentPassNum'
+		'DCVol.CP'(VID=53, Ver=13, P=2)
+	$end 'DCVolCurrentPassNum'
+	$begin 'DCVolCurrentMeshes'
+		'DVM.cmesh'(VID=53, Ver=13, Dir='DV53_S9_V13_DVM.cmesh/')
+	$end 'DCVolCurrentMeshes'
+	$begin 'DCVolAdpFiles'
+		IDDblMap(62, 1, 65, 2)
+		$begin 'DataMap'
+			VID=53
+			Ver=13
+			'DVM.ADP'(DblID=62, Dir='DV53_S9_V13_P62_DVM.ADP/')
+			'DVM.ADP'(DblID=65, Dir='DV53_S9_V13_P65_DVM.ADP/')
+		$end 'DataMap'
+	$end 'DCVolAdpFiles'
+	$begin 'SU'
+	$end 'SU'
+	$begin 'SU'
+	$end 'SU'
+	$begin 'DCRLastPassNumbers'
+		'DCR.LP'(VID=53, Ver=13, P=1)
+	$end 'DCRLastPassNumbers'
+	$begin 'DCLLastPassNumbers'
+		'DCL.LP'(VID=53, Ver=13, P=1)
+	$end 'DCLLastPassNumbers'
+	$begin 'DCPLastPassNumbers'
+		'DCP.LP'(VID=53, Ver=13, P=1)
+	$end 'DCPLastPassNumbers'
+	$begin 'Profiles'
+		PRF(VID=53, Ver=13, File='DV53_S9_V13.profile')
+	$end 'Profiles'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=56002
+			MI(VID=53, Ver=13, Dir='DV53_S9_MI56002_V13.sd/')
+		$end 'SubData'
+	$end 'MI'
+$end 'SolutionBlock4'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=9, Instance=\'\', Solution=-3, VersionID=13)'='SolutionBlock5'
+	'SolutionKey(SimSetup=9, Instance=\'SetupDefinition\', Solution=-1, VersionID=13)'='SolutionBlock4'
+	'SolutionKey(SimSetup=9, Instance=\'SolutionDefinition\', Solution=10, VersionID=13)'='SolutionBlock2'
+	'SolutionKey(SimSetup=9, Instance=\'SolutionDefinition\', Solution=11, VersionID=13)'='SolutionBlock3'
+$end 'BlockMapName'
+$begin 'SolutionBlock2'
+	SolutionName='LastAdaptive'
+	SolutionID=10
+	V=13
+	$begin 'States'
+		F(VID=53, Ver=13)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(500000000)
+		SolutionType=6
+		CenterFreq=0
+	$end 'Definition'
+	SweepID=-1
+	$begin 'MDCR'
+		$begin 'SubData'
+			ID=0
+			MDCR(VID=53, Ver=13, File='DV53_SOL10_MDCR0_V13.sd')
+		$end 'SubData'
+	$end 'MDCR'
+	$begin 'MDCL'
+		$begin 'SubData'
+			ID=0
+			MDCL(VID=53, Ver=13, File='DV53_SOL10_MDCL0_V13.sd')
+		$end 'SubData'
+	$end 'MDCL'
+	$begin 'MDCP'
+		$begin 'SubData'
+			ID=0
+			MDCP(VID=53, Ver=13, File='DV53_SOL10_MDCP0_V13.sd')
+		$end 'SubData'
+	$end 'MDCP'
+$end 'SolutionBlock2'
+$begin 'SolutionBlock3'
+	SolutionName='AdaptivePass'
+	SolutionID=11
+	V=13
+	$begin 'States'
+		F(VID=53, Ver=13)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(500000000)
+		SolutionType=6
+		CenterFreq=0
+	$end 'Definition'
+	SweepID=-1
+	$begin 'MDCR'
+		$begin 'SubData'
+			ID=1
+			MDCR(VID=53, Ver=13, File='DV53_SOL11_MDCR1_V13.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			MDCR(VID=53, Ver=13, File='DV53_SOL11_MDCR2_V13.sd')
+		$end 'SubData'
+	$end 'MDCR'
+	$begin 'MDCL'
+		$begin 'SubData'
+			ID=2
+			MDCL(VID=53, Ver=13, File='DV53_SOL11_MDCL2_V13.sd')
+		$end 'SubData'
+	$end 'MDCL'
+	$begin 'MDCP'
+		$begin 'SubData'
+			ID=1
+			MDCP(VID=53, Ver=13, File='DV53_SOL11_MDCP1_V13.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			MDCP(VID=53, Ver=13, File='DV53_SOL11_MDCP2_V13.sd')
+		$end 'SubData'
+	$end 'MDCP'
+$end 'SolutionBlock3'
+$begin 'SolutionBlock1'
+	ProductName='Q3D Extractor'
+	CircuitName='HW2_Question3b'
+	VersionID=6
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=69
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='', ID=53)
+	$end 'VariationIDs'
+	VersionID2=12
+	$begin 'InitialVolumeMeshes'
+		VM(VID=53, Ver=12, Dir='DV53_V12_VM.imesh/')
+	$end 'InitialVolumeMeshes'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=56002
+			MI(VID=53, Ver=12, Dir='DV53_MI56002_V12.sd/')
+		$end 'SubData'
+	$end 'MI'
+$end 'SolutionBlock1'
+$begin 'SolutionBlock5'
+	$begin '56002'
+		ConvSetupName='DCRLConv'
+		MaxPasses='(10, 1)'
+		MinPasses='(1, 1)'
+		ConvTarget='(1, 1)'
+		ConvTargetConsecPasses='N/A'
+		ConvCurrentConsecPasses='N/A'
+		c(tet=8288, type='C', p=1, dRL='(N/A, N/A)', dP='(1, 0)')
+		c(tet=10947, type='M', p=2, dRL='(9.0512e-11, N/A)', dP='(1, 1)', dR=9.05123e-11)
+	$end '56002'
+$end 'SolutionBlock5'
+$begin '$index$'
+	$begin '$index$'
+		SolutionBlock5(pos=3978, lin=149, lvl=0)
+		BlockMapName(pos=1475, lin=46, lvl=0)
+		SolutionBlock2(pos=1941, lin=53, lvl=0)
+		SolutionBlock3(pos=2612, lin=86, lvl=0)
+		SolutionBlock4(pos=370, lin=1, lvl=0)
+		SolutionBlock1(pos=3483, lin=127, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=4353, lin=161, lvl=0)
+	$end '$index$'
+$end '$index$'

@@ -1,6 +1,7 @@
 $begin '$base_index$'
   $begin 'properties'
     all_levels=000000000000
+<<<<<<< HEAD
     time(year=000000002025, month=000000000002, day=000000000018, hour=000000000017, min=000000000057, sec=000000000057)
     version=000000000000
   $end 'properties'
@@ -15,10 +16,143 @@ $begin 'SolutionBlock1'
 	PostProcess=false
 	LossLess=true
 	NextUniqueID=273
+=======
+    time(year=000000002025, month=000000000002, day=000000000017, hour=000000000017, min=000000000023, sec=000000000038)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000011326, lin=000000000401, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'SolutionBlock34'
+	SimSetupID=29
+	SimSetupName='Setup1'
+	VersionID=835
+	SolveSetupID=0
+	$begin 'CapSurfCurrentPassNum'
+		'CapSurf.CP'(VID=69, Ver=835, P=2)
+	$end 'CapSurfCurrentPassNum'
+	$begin 'CapSurfCurrentMeshes'
+		'CSM.cmesh'(VID=69, Ver=835, Dir='DV69_S29_V835_CSM.cmesh/')
+	$end 'CapSurfCurrentMeshes'
+	$begin 'CapSurfAdpFiles'
+		IDDblMap(82, 1, 86, 2, 90, 3, 94, 4)
+		$begin 'DataMap'
+			VID=69
+			Ver=835
+			'CSM.ADP'(DblID=82, Dir='DV69_S29_V835_P82_CSM.ADP/')
+			'CSM.ADP'(DblID=86, Dir='DV69_S29_V835_P86_CSM.ADP/')
+		$end 'DataMap'
+	$end 'CapSurfAdpFiles'
+	$begin 'SU'
+	$end 'SU'
+	$begin 'DCVolCurrentPassNum'
+		'DCVol.CP'(VID=69, Ver=835, P=10)
+	$end 'DCVolCurrentPassNum'
+	$begin 'DCVolCurrentMeshes'
+		'DVM.cmesh'(VID=69, Ver=835, Dir='DV69_S29_V835_DVM.cmesh/')
+	$end 'DCVolCurrentMeshes'
+	$begin 'DCVolAdpFiles'
+		IDDblMap(99, 1, 102, 2, 486, 3, 918, 4, 921, 5, 924, 6, 927, 7, 930, 8, 933, 9, 937, 10)
+		$begin 'DataMap'
+			VID=69
+			Ver=835
+			'DVM.ADP'(DblID=99, Dir='DV69_S29_V835_P99_DVM.ADP/')
+			'DVM.ADP'(DblID=102, Dir='DV69_S29_V835_P102_DVM.ADP/')
+			'DVM.ADP'(DblID=486, Dir='DV69_S29_V835_P486_DVM.ADP/')
+			'DVM.ADP'(DblID=918, Dir='DV69_S29_V835_P918_DVM.ADP/')
+			'DVM.ADP'(DblID=921, Dir='DV69_S29_V835_P921_DVM.ADP/')
+			'DVM.ADP'(DblID=924, Dir='DV69_S29_V835_P924_DVM.ADP/')
+			'DVM.ADP'(DblID=927, Dir='DV69_S29_V835_P927_DVM.ADP/')
+			'DVM.ADP'(DblID=930, Dir='DV69_S29_V835_P930_DVM.ADP/')
+			'DVM.ADP'(DblID=933, Dir='DV69_S29_V835_P933_DVM.ADP/')
+			'DVM.ADP'(DblID=937, Dir='DV69_S29_V835_P937_DVM.ADP/')
+		$end 'DataMap'
+	$end 'DCVolAdpFiles'
+	$begin 'SU'
+		$begin 'SubData'
+			ID=1
+			SU(VID=69, Ver=835, File='DV69_S29_SD1_V835.su')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			SU(VID=69, Ver=835, File='DV69_S29_SD2_V835.su')
+		$end 'SubData'
+	$end 'SU'
+	$begin 'ACSurfCurrentPassNum'
+		'ACSurf.CP'(VID=69, Ver=835, P=3)
+	$end 'ACSurfCurrentPassNum'
+	$begin 'ACSurfCurrentMeshes'
+		'ASM.cmesh'(VID=69, Ver=835, Dir='DV69_S29_V835_ASM.cmesh/')
+	$end 'ACSurfCurrentMeshes'
+	$begin 'ACSurfAdpFiles'
+		IDDblMap(109, 1, 112, 2, 115, 3)
+		$begin 'DataMap'
+			VID=69
+			Ver=835
+			'ASM.ADP'(DblID=109, Dir='DV69_S29_V835_P109_ASM.ADP/')
+			'ASM.ADP'(DblID=112, Dir='DV69_S29_V835_P112_ASM.ADP/')
+			'ASM.ADP'(DblID=115, Dir='DV69_S29_V835_P115_ASM.ADP/')
+		$end 'DataMap'
+	$end 'ACSurfAdpFiles'
+	$begin 'SU'
+	$end 'SU'
+	$begin 'CapLastPassNumbers'
+		'Cap.LP'(VID=69, Ver=835, P=2)
+	$end 'CapLastPassNumbers'
+	$begin 'DCRLastPassNumbers'
+		'DCR.LP'(VID=69, Ver=835, P=9)
+	$end 'DCRLastPassNumbers'
+	$begin 'DCLLastPassNumbers'
+		'DCL.LP'(VID=69, Ver=835, P=1)
+	$end 'DCLLastPassNumbers'
+	$begin 'ACRLastPassNumbers'
+		'ACR.LP'(VID=69, Ver=835, P=3)
+	$end 'ACRLastPassNumbers'
+	$begin 'ACLLastPassNumbers'
+		'ACL.LP'(VID=69, Ver=835, P=3)
+	$end 'ACLLastPassNumbers'
+	$begin 'DCPLastPassNumbers'
+		'DCP.LP'(VID=69, Ver=835, P=9)
+	$end 'DCPLastPassNumbers'
+	$begin 'Profiles'
+		PRF(VID=69, Ver=835, File='DV69_S29_V835.profile')
+	$end 'Profiles'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=56001
+			MI(VID=69, Ver=835, Dir='DV69_S29_MI56001_V835.sd/')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=56002
+			MI(VID=69, Ver=835, Dir='DV69_S29_MI56002_V835.sd/')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=56003
+			MI(VID=69, Ver=835, Dir='DV69_S29_MI56003_V835.sd/')
+		$end 'SubData'
+	$end 'MI'
+$end 'SolutionBlock34'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=29, Instance=\'\', Solution=-3, VersionID=835)'='SolutionBlock35'
+	'SolutionKey(SimSetup=29, Instance=\'SetupDefinition\', Solution=-1, VersionID=835)'='SolutionBlock34'
+	'SolutionKey(SimSetup=29, Instance=\'SolutionDefinition\', Solution=30, VersionID=835)'='SolutionBlock32'
+	'SolutionKey(SimSetup=29, Instance=\'SolutionDefinition\', Solution=31, VersionID=835)'='SolutionBlock33'
+$end 'BlockMapName'
+$begin 'SolutionBlock1'
+	ProductName='Q3D Extractor'
+	CircuitName='DIP8'
+	VersionID=831
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=939
+>>>>>>> 1dc9680f69d75cb7c88de545352c918cd23d123f
 	MoveBackwards=false
 	$begin 'VariationIDs'
 		Map(V='', ID=69)
 	$end 'VariationIDs'
+<<<<<<< HEAD
 	VersionID2=190
 $end 'SolutionBlock1'
 $begin 'BlockMapName'
@@ -46,6 +180,36 @@ $begin 'SolutionBlock7'
 	SolutionID=31
 	V=191
 	$begin 'States'
+=======
+	VersionID2=832
+	$begin 'InitialSurfaceMeshes'
+		SM(VID=69, Ver=831, Dir='DV69_V831_SM.imesh/')
+	$end 'InitialSurfaceMeshes'
+	$begin 'InitialVolumeMeshes'
+		VM(VID=69, Ver=832, Dir='DV69_V832_VM.imesh/')
+	$end 'InitialVolumeMeshes'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=56001
+			MI(VID=69, Ver=831, Dir='DV69_MI56001_V831.sd/')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=56002
+			MI(VID=69, Ver=832, Dir='DV69_MI56002_V832.sd/')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=56003
+			MI(VID=69, Ver=831, Dir='DV69_MI56003_V831.sd/')
+		$end 'SubData'
+	$end 'MI'
+$end 'SolutionBlock1'
+$begin 'SolutionBlock33'
+	SolutionName='AdaptivePass'
+	SolutionID=31
+	V=835
+	$begin 'States'
+		F(VID=69, Ver=835)
+>>>>>>> 1dc9680f69d75cb7c88de545352c918cd23d123f
 	$end 'States'
 	$begin 'Definition'
 		SamplingInterpolation=false
@@ -54,6 +218,7 @@ $begin 'SolutionBlock7'
 		CenterFreq=0
 	$end 'Definition'
 	SweepID=-1
+<<<<<<< HEAD
 $end 'SolutionBlock7'
 $begin 'SolutionBlock8'
 	SimSetupID=29
@@ -81,3 +246,255 @@ $begin '$index$'
 	$end '$index$'
 $end '$index$'
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+=======
+	$begin 'MCAP'
+		$begin 'SubData'
+			ID=1
+			MCAP(VID=69, Ver=835, File='DV69_SOL31_MCAP1_V835.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			MCAP(VID=69, Ver=835, File='DV69_SOL31_MCAP2_V835.sd')
+		$end 'SubData'
+	$end 'MCAP'
+	$begin 'MCOND'
+		$begin 'SubData'
+			ID=1
+			MCOND(VID=69, Ver=835, File='DV69_SOL31_MCOND1_V835.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			MCOND(VID=69, Ver=835, File='DV69_SOL31_MCOND2_V835.sd')
+		$end 'SubData'
+	$end 'MCOND'
+	$begin 'MDCR'
+		$begin 'SubData'
+			ID=1
+			MDCR(VID=69, Ver=835, File='DV69_SOL31_MDCR1_V835.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			MDCR(VID=69, Ver=835, File='DV69_SOL31_MDCR2_V835.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=3
+			MDCR(VID=69, Ver=835, File='DV69_SOL31_MDCR3_V835.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=4
+			MDCR(VID=69, Ver=835, File='DV69_SOL31_MDCR4_V835.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=5
+			MDCR(VID=69, Ver=835, File='DV69_SOL31_MDCR5_V835.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=6
+			MDCR(VID=69, Ver=835, File='DV69_SOL31_MDCR6_V835.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=7
+			MDCR(VID=69, Ver=835, File='DV69_SOL31_MDCR7_V835.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=8
+			MDCR(VID=69, Ver=835, File='DV69_SOL31_MDCR8_V835.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=9
+			MDCR(VID=69, Ver=835, File='DV69_SOL31_MDCR9_V835.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=10
+			MDCR(VID=69, Ver=835, File='DV69_SOL31_MDCR10_V835.sd')
+		$end 'SubData'
+	$end 'MDCR'
+	$begin 'MDCL'
+		$begin 'SubData'
+			ID=10
+			MDCL(VID=69, Ver=835, File='DV69_SOL31_MDCL10_V835.sd')
+		$end 'SubData'
+	$end 'MDCL'
+	$begin 'MADCR'
+		$begin 'SubData'
+			ID=1
+			MADCR(VID=69, Ver=835, File='DV69_SOL31_MADCR1_V835.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			MADCR(VID=69, Ver=835, File='DV69_SOL31_MADCR2_V835.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=3
+			MADCR(VID=69, Ver=835, File='DV69_SOL31_MADCR3_V835.sd')
+		$end 'SubData'
+	$end 'MADCR'
+	$begin 'MACL'
+		$begin 'SubData'
+			ID=1
+			MACL(VID=69, Ver=835, File='DV69_SOL31_MACL1_V835.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			MACL(VID=69, Ver=835, File='DV69_SOL31_MACL2_V835.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=3
+			MACL(VID=69, Ver=835, File='DV69_SOL31_MACL3_V835.sd')
+		$end 'SubData'
+	$end 'MACL'
+	$begin 'MDCP'
+		$begin 'SubData'
+			ID=1
+			MDCP(VID=69, Ver=835, File='DV69_SOL31_MDCP1_V835.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			MDCP(VID=69, Ver=835, File='DV69_SOL31_MDCP2_V835.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=3
+			MDCP(VID=69, Ver=835, File='DV69_SOL31_MDCP3_V835.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=4
+			MDCP(VID=69, Ver=835, File='DV69_SOL31_MDCP4_V835.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=5
+			MDCP(VID=69, Ver=835, File='DV69_SOL31_MDCP5_V835.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=6
+			MDCP(VID=69, Ver=835, File='DV69_SOL31_MDCP6_V835.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=7
+			MDCP(VID=69, Ver=835, File='DV69_SOL31_MDCP7_V835.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=8
+			MDCP(VID=69, Ver=835, File='DV69_SOL31_MDCP8_V835.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=9
+			MDCP(VID=69, Ver=835, File='DV69_SOL31_MDCP9_V835.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=10
+			MDCP(VID=69, Ver=835, File='DV69_SOL31_MDCP10_V835.sd')
+		$end 'SubData'
+	$end 'MDCP'
+$end 'SolutionBlock33'
+$begin 'SolutionBlock32'
+	SolutionName='LastAdaptive'
+	SolutionID=30
+	V=835
+	$begin 'States'
+		F(VID=69, Ver=835)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(1000000000)
+		SolutionType=6
+		CenterFreq=0
+	$end 'Definition'
+	SweepID=-1
+	$begin 'MCAP'
+		$begin 'SubData'
+			ID=0
+			MCAP(VID=69, Ver=835, File='DV69_SOL30_MCAP0_V835.sd')
+		$end 'SubData'
+	$end 'MCAP'
+	$begin 'MCOND'
+		$begin 'SubData'
+			ID=0
+			MCOND(VID=69, Ver=835, File='DV69_SOL30_MCOND0_V835.sd')
+		$end 'SubData'
+	$end 'MCOND'
+	$begin 'MDCR'
+		$begin 'SubData'
+			ID=0
+			MDCR(VID=69, Ver=835, File='DV69_SOL30_MDCR0_V835.sd')
+		$end 'SubData'
+	$end 'MDCR'
+	$begin 'MDCL'
+		$begin 'SubData'
+			ID=0
+			MDCL(VID=69, Ver=835, File='DV69_SOL30_MDCL0_V835.sd')
+		$end 'SubData'
+	$end 'MDCL'
+	$begin 'MADCR'
+		$begin 'SubData'
+			ID=0
+			MADCR(VID=69, Ver=835, File='DV69_SOL30_MADCR0_V835.sd')
+		$end 'SubData'
+	$end 'MADCR'
+	$begin 'MACL'
+		$begin 'SubData'
+			ID=0
+			MACL(VID=69, Ver=835, File='DV69_SOL30_MACL0_V835.sd')
+		$end 'SubData'
+	$end 'MACL'
+	$begin 'MDCP'
+		$begin 'SubData'
+			ID=0
+			MDCP(VID=69, Ver=835, File='DV69_SOL30_MDCP0_V835.sd')
+		$end 'SubData'
+	$end 'MDCP'
+$end 'SolutionBlock32'
+$begin 'SolutionBlock35'
+	$begin '56001'
+		ConvSetupName='CapConv'
+		MaxPasses='10'
+		MinPasses='1'
+		ConvTarget='1'
+		ConvTargetConsecPasses='N/A'
+		ConvCurrentConsecPasses='N/A'
+		c(p=1, tri=208)
+		c(p=2, tri=476, delta=0.235539)
+	$end '56001'
+	$begin '56002'
+		ConvSetupName='DCRLConv'
+		MaxPasses='(10, 1)'
+		MinPasses='(1, 1)'
+		ConvTarget='(1, 1)'
+		ConvTargetConsecPasses='N/A'
+		ConvCurrentConsecPasses='N/A'
+		c(dP='(1, 0)', type='C', tet=797, dRL='(N/A, N/A)', p=1)
+		c(dP='(2, 0)', dR=3.93089, type='C', tet=1057, dRL='(3.9309, N/A)', p=2)
+		c(dP='(3, 0)', dR=2.63821, type='C', tet=1399, dRL='(2.6382, N/A)', p=3)
+		c(dP='(4, 0)', dR=2.8469, type='C', tet=1847, dRL='(2.8469, N/A)', p=4)
+		c(dP='(5, 0)', dR=3.42405, type='C', tet=2440, dRL='(3.4241, N/A)', p=5)
+		c(dP='(6, 0)', dR=5.82083, type='C', tet=3225, dRL='(5.8208, N/A)', p=6)
+		c(dP='(7, 0)', dR=2.43118, type='C', tet=4263, dRL='(2.4312, N/A)', p=7)
+		c(dP='(8, 0)', dR=1.72759, type='C', tet=5629, dRL='(1.7276, N/A)', p=8)
+		c(dP='(9, 0)', dR=1.24692, type='C', tet=7431, dRL='(1.2469, N/A)', p=9)
+		c(dP='(9, 1)', dR=0.968208, type='M', tet=9810, dRL='(0.96821, N/A)', p=10)
+	$end '56002'
+	$begin '56003'
+		ConvSetupName='ACRLConv'
+		MaxPasses='10'
+		MinPasses='1'
+		ConvTarget='1'
+		ConvTargetConsecPasses='N/A'
+		ConvCurrentConsecPasses='N/A'
+		c(p=1, tri=208)
+		c(p=2, tri=272, delta=2.88564)
+		c(p=3, tri=354, delta=0.515908)
+	$end '56003'
+$end 'SolutionBlock35'
+$begin '$index$'
+	$begin '$index$'
+		BlockMapName(pos=3721, lin=110, lvl=0)
+		SolutionBlock35(pos=9881, lin=360, lvl=0)
+		SolutionBlock32(pos=8671, lin=303, lvl=0)
+		SolutionBlock33(pos=5001, lin=150, lvl=0)
+		SolutionBlock34(pos=370, lin=1, lvl=0)
+		SolutionBlock1(pos=4199, lin=117, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=11326, lin=401, lvl=0)
+	$end '$index$'
+$end '$index$'
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+>>>>>>> 1dc9680f69d75cb7c88de545352c918cd23d123f

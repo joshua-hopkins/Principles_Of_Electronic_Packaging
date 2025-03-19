@@ -1,0 +1,75 @@
+faces_v3 46
+f 1  27 26 24  s 0 -1  1  2146483648 
+f 2  24 25 27  s 0 -1  1  2146483648 
+f 3  13 28 14  s 0 -1  1  2146483649 
+f 4  11 28 10  s 0 -1  1  2146483649 
+f 5  28 19 14  s 0 -1  1  2146483649 
+f 6  27 28 13  s 0 -1  1  2146483649 
+f 7  17 28 11  s 0 -1  1  2146483649 
+f 8  28 17 19  s 0 -1  1  2146483649 
+f 9  28 25 10  s 0 -1  1  2146483649 
+f 10  25 28 27  s 0 -1  1  2146483649 
+f 11  11 9 12  s 0 -1  1  2146483650 
+f 12  9 11 10  s 0 -1  1  2146483650 
+f 13  11 21 17  s 0 -1  1  2146483650 
+f 14  21 11 12  s 0 -1  1  2146483650 
+f 15  9 25 24  s 0 -1  1  2146483650 
+f 16  25 9 10  s 0 -1  1  2146483650 
+f 17  12 15 16  s 0 -1  1  2146483651 
+f 18  15 12 9  s 0 -1  1  2146483651 
+f 19  12 22 21  s 0 -1  1  2146483651 
+f 20  22 12 16  s 0 -1  1  2146483651 
+f 21  26 9 24  s 0 -1  1  2146483651 
+f 22  9 26 15  s 0 -1  1  2146483651 
+f 23  18 22 19  s 0 -1  1  2146483652 
+f 24  22 18 21  s 0 -1  1  2146483652 
+f 25  18 19 17  s 0 -1  1  2146483652 
+f 26  21 18 17  s 0 -1  1  2146483652 
+f 27  16 15 14  s 0 -1  1  2146483653 
+f 28  13 14 15  s 0 -1  1  2146483653 
+f 29  22 14 19  s 0 -1  1  2146483653 
+f 30  14 22 16  s 0 -1  1  2146483653 
+f 31  13 26 27  s 0 -1  1  2146483653 
+f 32  26 13 15  s 0 -1  1  2146483653 
+f 33  1 2 3  s 34 0  1  36 
+f 34  1 3 4  s 34 0  1  36 
+f 35  8 29 6  s 34 0  1  35 
+f 36  7 29 5  s 34 0  1  35 
+f 37  29 7 6  s 34 0  1  35 
+f 38  29 8 1  s 34 0  1  37 
+f 39  29 4 5  s 34 0  1  37 
+f 40  4 29 1  s 34 0  1  37 
+f 41  1 8 2  s 34 0  1  38 
+f 42  8 6 2  s 34 0  1  38 
+f 43  5 4 3  s 34 0  1  40 
+f 44  5 3 7  s 34 0  1  40 
+f 45  2 6 3  s 34 0  1  39 
+f 46  6 7 3  s 34 0  1  39 
+end_face
+NumFaces 12
+35 34 
+37 34 
+38 34 
+39 34 
+36 34 
+40 34 
+2146483648 0 
+2146483649 0 
+2146483650 0 
+2146483651 0 
+2146483652 0 
+2146483653 0 
+34 0 Box1 bodyid sheetflag bodyname
+0 0 background bodyid sheetflag bodyname
+NumExplicitlyPreserved 0
+end_explicitly_preserved_edges
+NumCurvedFaces 0
+EndCurvedFacesSection
+NumTrueMidPoints 0
+EndTrueMidPointsSection
+NumIncompletelyPulledTrueSurfacePoints 0
+EndIncompletelyPulledTrueSurfacePointsSection
+Num_meshvert2modelverts 0
+End_meshvert2modelverts
+Num_meshedge2modeledges 0
+End_meshedge2modeledges
